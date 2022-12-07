@@ -71,7 +71,7 @@
             
         }
         
-        section div {
+        .wrapper {
             
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -82,24 +82,14 @@
             width: 100%;
             max-width:20px;
             margin: 0 auto;
-            padding: 50px;
-            
         }
-
-        section > div {
-            padding: 100px 10px;
-        }
-
         section div img {
             width: 100px;
-            
-            
         }
 
         a {
             display: flex;
             cursor:pointer;
-            width: 30%;
             align-items: center;
             justify-content:center;
             padding: 8px ;
@@ -124,10 +114,12 @@
 <body>
     <img  src="images/bg.png" alt="bg" />
     <section>
-        <i>
-            <img class="picture" src="images/profile.jpeg" alt="dp" />
-            <h2>Egresa Meto</h2>
-            <div>
+     <div>
+      <img class="picture" src="images/profile.jpeg" alt="dp" />
+      <h2 style="text-align: center;">Egresa Meto</h2>
+    </div>
+
+            <div class="wrapper">
                 <a href="">
                     <img src="images/instagram.png" alt="" />
                     
